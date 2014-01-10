@@ -1,6 +1,6 @@
 {
   "name": "easyspider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mini spider.",
   "main": "lib/spider.js",
   "repository": {
@@ -22,6 +22,6 @@
     "iconv-lite": "~0.2.11",
     "cheerio": "~0.12.3",
     "jschardet": "~1.0.2",
-    "request-5291": "~2.28.0"
+    "request": "~2.31.0"
   }
 }

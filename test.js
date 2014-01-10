@@ -10,3 +10,13 @@ spider.route('http://www.baidu.com',function(error, $){
 spider.route('http://login.renren.com/ajax/getEncryptKey',{json:true},function(error, json){
   assert.equal(json.rkey,'d0cf42c2d3d337f9e5d14083f2d52cb2');
 });
+
+var cookiejar = require('request').jar();
+cookiejar.setCookie('key=value','http://www.domain.com',function(){});
+
+spider.route('http://www.baidu.com',{cookiejar:cookiejar},function(error, $){
+  spider.getCookiejar().getCookieString('http://www.domain.com',function(err,cookiestring){
+    assert.equal(cookiestring,'key=value');
+  });
+});
+
