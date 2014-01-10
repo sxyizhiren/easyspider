@@ -26,7 +26,7 @@ spider.route('http://login.renren.com/ajax/getEncryptKey',{json:true},function(e
 
 ###if you want to change cookie of spider, just do this:
 
-var cookiejar = spider.cookiejar;
+var cookiejar = spider.getCookiejar();
 
 //set cookie
 
