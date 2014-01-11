@@ -1,6 +1,6 @@
 {
   "name": "easyspider",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "mini spider.",
   "main": "lib/spider.js",
   "repository": {
