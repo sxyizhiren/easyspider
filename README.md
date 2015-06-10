@@ -2,6 +2,8 @@
 - [![NPM version](https://badge.fury.io/js/easyspider.png)](http://badge.fury.io/js/easyspider)
 - [![Dependencies Status](https://david-dm.org/sxyizhiren/easyspider.png)](https://david-dm.org/sxyizhiren/easyspider)
 - [![Build Status](https://travis-ci.org/sxyizhiren/easyspider.png?branch=master)](https://travis-ci.org/sxyizhiren/easyspider)
+- [![NPM Stats](https://nodei.co/npm/easyspider.png?downloads=true&stars=true)](https://npmjs.org/package/easyspider)
+- ![NPM Downloads](https://nodei.co/npm-dl/easyspider.png?months=6)
 
 a mini spider
 
