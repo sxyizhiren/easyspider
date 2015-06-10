@@ -2,6 +2,7 @@
 - [![NPM version](https://badge.fury.io/js/easyspider.png)](http://badge.fury.io/js/easyspider)
 - [![Dependencies Status](https://david-dm.org/sxyizhiren/easyspider.png)](https://david-dm.org/sxyizhiren/easyspider)
 - [![Build Status](https://travis-ci.org/sxyizhiren/easyspider.png?branch=master)](https://travis-ci.org/sxyizhiren/easyspider)
+
 a mini spider
 
 ##install:
@@ -11,7 +12,9 @@ npm install easyspider
 ##Usage:
 
 ```
-
+	var Spider = require('easyspider');
+	var spider = new Spider();
+	
 	function get_title(){
 		console.log('get_title','start');
 		spider.route('http://www.baidu.com',function(error, $){
